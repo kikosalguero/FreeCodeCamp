@@ -1,6 +1,6 @@
 var2 = "testando"
 
-var count3 = {
+var sobremesa = {
 	"numero": var2,
 	"casa": "segunda"
 }
