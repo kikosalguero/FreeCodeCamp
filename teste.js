@@ -1,9 +1,23 @@
-var2 = "testando"
+// Setup
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
 
-var sobremesa = {
-	"numero": var2,
-	"casa": "monday",
-	"cachorro": "Mel"
+function checkObj(checkProp) {
+  // Your Code Here
+  
+  if (myObj.hasOwnProperty("checkProp") === true) {
+    var answer = myObj.checkProp;
+    return answer;
+ 
+  }
+  
+  else if (myObj.hasOwnProperty("checkProp") === false) { 
+  return "Not Found";
+  }
 }
 
-console.log(sobremesa)
+// Test your code by modifying these values
+checkObj("gift");
