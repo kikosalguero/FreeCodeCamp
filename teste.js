@@ -1,4 +1,4 @@
-// Setup
+
 var myObj = {
   "gift": "pony",
   "pet": "kitten",
@@ -6,19 +6,11 @@ var myObj = {
 };
 
 function checkObj(checkProp) {
-  // Your Code Here
-  
-  if (myObj.hasOwnProperty(checkProp) === true) {
-    var answer = myObj.checkProp;
-    return answer;
- 
-  }
-  
-  else if (myObj.hasOwnProperty(checkProp) === false) { 
+  if (myObj.hasOwnProperty(checkProp)) 
+  return myObj[checkProp];
+  else 
   return "Not Found";
-  }
 }
 
-// Test your code by modifying these values
-checkObj("gift");
+console.log(checkObj("gift"));
 
