@@ -39,7 +39,7 @@
 			"file": "teste.js",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 99,
 				"line_ending": "Windows"
 			}
 		}
@@ -147,18 +147,18 @@
 				{
 					"buffer": 0,
 					"file": "teste.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 99,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								99,
+								99
 							]
 						],
 						"settings":
