@@ -36,10 +36,26 @@
 	"buffers":
 	[
 		{
-			"file": "teste.js",
+			"file": "Testing-Objects-for-Properties.js",
 			"settings":
 			{
-				"buffer_size": 118,
+				"buffer_size": 237,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "exerc.js",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "desktop.ini",
+			"settings":
+			{
+				"buffer_size": 147,
 				"line_ending": "Windows"
 			}
 		}
@@ -96,6 +112,7 @@
 	],
 	"file_history":
 	[
+		"/D/Google Drive/0 Coding/FreeCodeCamp/FreeCodeCamp/teste.js",
 		"/D/Google Drive/0 Coding/Acervo/tests/teste.js",
 		"/C/Users/kikos/AppData/Roaming/Sublime Text 3/Packages/JavaScript.sublime-build",
 		"/C/Users/kikos/AppData/Roaming/Sublime Text 3/Packages/JavaScript.sublime.build",
@@ -146,19 +163,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "teste.js",
+					"file": "Testing-Objects-for-Properties.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								90,
-								90
+								237,
+								0
 							]
 						],
 						"settings":
@@ -170,6 +187,63 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "exerc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "desktop.ini",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
